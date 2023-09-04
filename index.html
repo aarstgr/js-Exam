@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="container mx-auto mt-10">
+      <form>
+      <div class="flex flex-col items-center">
+        <input id="numberInput" type="text" class="border border-gray-300 rounded-lg px-4 py-2 mb-4 text-gray-800" placeholder="Enter a number">
+        <div class="flex gap-4">
+          <button type="button" id="randomButton" class="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-4 py-2">Generate Random Number</button>
+          <button type="button" id="primeButton" class="bg-green-500 hover:bg-green-600 text-white rounded-lg px-4 py-2">Calculate Prime Numbers</button>
+          <button type="button" id="resetButton" class="bg-red-500 hover:bg-red-600 text-white rounded-lg px-4 py-2">Reset</button>
+        </div>
+     </form>
+     </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
